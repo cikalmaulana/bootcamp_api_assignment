@@ -21,3 +21,21 @@ This document provides testing documentation for the project using APIs from [JS
 2. **Verify Username**
    - Extract the username from the response.
    - Verify that the extracted username matches the expected username.
+
+### TC Get Photos Title
+**Description:** This test case aims to retrieve photo information by ID using the /photos API and verify the correctness of the returned photo title.
+
+**Steps:**
+
+1. **Get Photo by ID**
+   - Endpoint: https://jsonplaceholder.typicode.com/photos/{photoId}
+   - Method: GET
+   - Parameters: photoId
+   - Example Request: /photos/1
+     
+2. **Verify Photo Title**
+   - Extract the title from the response.
+   - Verify that the extracted title matches the expected title.
+  
+## Conclusion
+This documentation covers two test cases involving the use of APIs from JSONPlaceholder. Ensure that the provided sample codes are adapted to the actual structure of the responses and expectations in your specific project.
