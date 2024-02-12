@@ -21,7 +21,3 @@ This document provides testing documentation for the project using APIs from [JS
 2. **Verify Username**
    - Extract the username from the response.
    - Verify that the extracted username matches the expected username.
-
-
-// Verify the extracted username
-WS.verifyElementPropertyValue(response.getResponseText(), 'username', 'expected_username')
