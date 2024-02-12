@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Get Suites" time="4.601" tests="2" failures="0" errors="0">
+   <testsuite name="Get Suites" tests="2" failures="0" errors="0" time="4.601" skipped="0" timestamp="2024-02-12 17:13:32" hostname="CIkal - Cikal" id="Test Suites/Get Suites">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\CIkal\\git\\bootcamp_api_assignment\\Reports\\20240212_171327\\Get Suites\\20240212_171327"/>
+         <property name="logFiles" value="C:\\Users\\CIkal\\git\\bootcamp_api_assignment\\Reports\\20240212_171327\\Get Suites\\20240212_171327\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="CIkal - Cikal"/>
+         <property name="hostAddress" value="172.16.213.209"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.0.0.212"/>
+      </properties>
+      <testcase name="Test Cases/GET/TC Get Photos Title" time="2.961" classname="Test Cases/GET/TC Get Photos Title" status="PASSED">
+         <system-out><![CDATA[2024-02-12 17:13:32 - [TEST_CASE][PASSED] - Test Cases/GET/TC Get Photos Title: Test Cases/GET/TC Get Photos Title
+
+2024-02-12 17:13:33 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("GET/GET Photos Title Request", ["id":id])): Send request successfully
+
+2024-02-12 17:13:35 - [MESSAGE][INFO] - HAR: C:\Users\CIkal\git\bootcamp_api_assignment\Reports\20240212_171327\Get Suites\20240212_171327\requests\main\0.har
+
+2024-02-12 17:13:35 - [MESSAGE][PASSED] - Send request successfully
+
+2024-02-12 17:13:35 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[0].title", "officia porro iure quia iusto qui ipsa ut modi"): Verify element property value successfully
+
+2024-02-12 17:13:35 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2024-02-12 17:13:35 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[0].id", id): Verify element property value successfully
+
+2024-02-12 17:13:35 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GET/TC Get Username" time="1.401" classname="Test Cases/GET/TC Get Username" status="PASSED">
+         <system-out><![CDATA[2024-02-12 17:13:35 - [TEST_CASE][PASSED] - Test Cases/GET/TC Get Username: Test Cases/GET/TC Get Username
+
+2024-02-12 17:13:35 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("GET/GET Username", ["email":"Karley_Dach@jasper.info"])): Send request successfully
+
+2024-02-12 17:13:36 - [MESSAGE][INFO] - HAR: C:\Users\CIkal\git\bootcamp_api_assignment\Reports\20240212_171327\Get Suites\20240212_171327\requests\main\1.har
+
+2024-02-12 17:13:36 - [MESSAGE][PASSED] - Send request successfully
+
+2024-02-12 17:13:36 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2024-02-12 17:13:37 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2024-02-12 17:13:37 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[0].email", "Karley_Dach@jasper.info"): Verify element property value successfully
+
+2024-02-12 17:13:37 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2024-02-12 17:13:37 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[0].username", "Leopoldo_Corkery"): Verify element property value successfully
+
+2024-02-12 17:13:37 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2024-02-12 17:13:32 - [TEST_SUITE][PASSED] - Get Suites: Test Cases/GET/TC Get Username]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

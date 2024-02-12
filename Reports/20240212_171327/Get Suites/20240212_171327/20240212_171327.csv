@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Get Suites,,,,2024-02-12 17:13:32,2024-02-12 17:13:37,4.601s,PASSED
+,,,,,,,
+Test Cases/GET/TC Get Photos Title,,,,2024-02-12 17:13:32,2024-02-12 17:13:35,2.961s,PASSED
+"response = sendRequest(findTestObject(""GET/GET Photos Title Request"", [""id"":id]))",,,,2024-02-12 17:13:33,2024-02-12 17:13:35,2.329s,PASSED
+"verifyElementPropertyValue(response, ""[0].title"", ""officia porro iure quia iusto qui ipsa ut modi"")",,,,2024-02-12 17:13:35,2024-02-12 17:13:35,0.153s,PASSED
+"verifyElementPropertyValue(response, ""[0].id"", id)",,,,2024-02-12 17:13:35,2024-02-12 17:13:35,0.057s,PASSED
+,,,,,,,
+Test Cases/GET/TC Get Username,,,,2024-02-12 17:13:35,2024-02-12 17:13:37,1.401s,PASSED
+"response = sendRequest(findTestObject(""GET/GET Username"", [""email"":""Karley_Dach@jasper.info""]))",,,,2024-02-12 17:13:35,2024-02-12 17:13:36,1.131s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2024-02-12 17:13:36,2024-02-12 17:13:37,0.064s,PASSED
+"verifyElementPropertyValue(response, ""[0].email"", ""Karley_Dach@jasper.info"")",,,,2024-02-12 17:13:37,2024-02-12 17:13:37,0.043s,PASSED
+"verifyElementPropertyValue(response, ""[0].username"", ""Leopoldo_Corkery"")",,,,2024-02-12 17:13:37,2024-02-12 17:13:37,0.041s,PASSED
