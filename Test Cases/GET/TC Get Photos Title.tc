@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC Get Photos Title</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>37c6383e-8974-46fd-ae7c-9e14ab3da056</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>971920a0-8dd8-4315-9841-88444fbe3c7a</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'3'</defaultValue>
+      <description></description>
+      <id>971920a0-8dd8-4315-9841-88444fbe3c7a</id>
+      <masked>false</masked>
+      <name>id</name>
+   </variable>
+</TestCaseEntity>
