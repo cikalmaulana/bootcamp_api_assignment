@@ -22,18 +22,6 @@ This document provides testing documentation for the project using APIs from [JS
    - Extract the username from the response.
    - Verify that the extracted username matches the expected username.
 
-**Sample Code:**
-
-```groovy
-// Perform GET request to /users
-def response = WS.sendRequest({
-    method: 'GET',
-    restUrl: 'https://jsonplaceholder.typicode.com/users',
-    query: ['email': 'test@example.com']
-})
-
-// Extract username from the response
-def username = response.getResponseText('UTF-8').find { it.email == 'test@example.com' }?.username
 
 // Verify the extracted username
 WS.verifyElementPropertyValue(response.getResponseText(), 'username', 'expected_username')
